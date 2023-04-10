@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.new-banner{
+  margin-top: 50px;
+  margin: 5% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.mission{
+  width: fit-content;
+}
+@media only screen and (max-width: 1000px) {
+  .new-banner {
+    flex-direction: column;
+  }
+}
