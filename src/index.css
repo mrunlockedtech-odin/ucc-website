@@ -12,19 +12,44 @@ code {
     monospace;
 }
 
-.new-banner{
-  margin-top: 50px;
-  margin: 5% 20%;
+.new-banner {
+  margin: 2% 20%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: left;
 }
-.mission{
+
+.mission {
   width: fit-content;
 }
+
+.unique {
+  color: white;
+  background-color: #313638;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unique-text {
+  margin: 0% 20%;
+  padding: 20px;
+}
+
+.meeting-banner {
+  padding: 1%;
+  color: white;
+  background-color: red;
+}
+
+.worship-service {
+  margin: 2% 20%;
+}
+
 @media only screen and (max-width: 1000px) {
   .new-banner {
     flex-direction: column;
+    text-align: center;
   }
 }
